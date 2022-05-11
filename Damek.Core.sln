@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{5A8CB99B-9297-4FDE-B3CB-14B29D5A96B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{FF5FE7F6-3322-45B0-A377-D9397DF9B812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{ACC7D47D-F466-4D92-86EE-F3E634E72BFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{29E5DA78-52B9-4F9A-BCB4-980AC92DC5E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{AFAB5D04-3D25-4551-BF8B-6D4BA28ED168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{E29ABE32-B108-47D1-8C60-31EC99151D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{6379A525-EE1E-461C-B92A-9CD6FADFCEA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Application", "Damek.Core.Application\Damek.Core.Application.csproj", "{67A554C2-BB1B-4582-8FFF-B99C520CACCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Domain", "Damek.Core.Domain\Damek.Core.Domain.csproj", "{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Infra.EFCore", "Damek.Core.Infra.EFCore\Damek.Core.Infra.EFCore.csproj", "{0C0DEBFB-516E-46B0-9042-36EFD892DC0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Infra.MongoDb", "Damek.Core.Infra.MongoDb\Damek.Core.Infra.MongoDb.csproj", "{54D27BEA-3982-4160-B2F9-B9CC98D19AB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Infra.CrossCutting.Identity", "Damek.Core.Infra.CrossCutting.Identity\Damek.Core.Infra.CrossCutting.Identity.csproj", "{F8182347-A447-43BB-B777-0FC44C2822E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Infra.CrossCutting.Util", "Damek.Core.Infra.CrossCutting.Util\Damek.Core.Infra.CrossCutting.Util.csproj", "{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Damek.Core.Infra.CrossCutting.IoC", "Damek.Core.Infra.CrossCutting.IoC\Damek.Core.Infra.CrossCutting.IoC.csproj", "{405E2FFE-9430-4C5A-8F4B-7A5D33770448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A554C2-BB1B-4582-8FFF-B99C520CACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A554C2-BB1B-4582-8FFF-B99C520CACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A554C2-BB1B-4582-8FFF-B99C520CACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A554C2-BB1B-4582-8FFF-B99C520CACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0DEBFB-516E-46B0-9042-36EFD892DC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0DEBFB-516E-46B0-9042-36EFD892DC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0DEBFB-516E-46B0-9042-36EFD892DC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0DEBFB-516E-46B0-9042-36EFD892DC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D27BEA-3982-4160-B2F9-B9CC98D19AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D27BEA-3982-4160-B2F9-B9CC98D19AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D27BEA-3982-4160-B2F9-B9CC98D19AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D27BEA-3982-4160-B2F9-B9CC98D19AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8182347-A447-43BB-B777-0FC44C2822E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8182347-A447-43BB-B777-0FC44C2822E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8182347-A447-43BB-B777-0FC44C2822E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8182347-A447-43BB-B777-0FC44C2822E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405E2FFE-9430-4C5A-8F4B-7A5D33770448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405E2FFE-9430-4C5A-8F4B-7A5D33770448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405E2FFE-9430-4C5A-8F4B-7A5D33770448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405E2FFE-9430-4C5A-8F4B-7A5D33770448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E29ABE32-B108-47D1-8C60-31EC99151D8B} = {AFAB5D04-3D25-4551-BF8B-6D4BA28ED168}
+		{6379A525-EE1E-461C-B92A-9CD6FADFCEA6} = {AFAB5D04-3D25-4551-BF8B-6D4BA28ED168}
+		{67A554C2-BB1B-4582-8FFF-B99C520CACCA} = {ACC7D47D-F466-4D92-86EE-F3E634E72BFD}
+		{EA4C0BAD-D7B8-415E-BF31-AA4E77CEE263} = {29E5DA78-52B9-4F9A-BCB4-980AC92DC5E0}
+		{0C0DEBFB-516E-46B0-9042-36EFD892DC0C} = {E29ABE32-B108-47D1-8C60-31EC99151D8B}
+		{54D27BEA-3982-4160-B2F9-B9CC98D19AB4} = {E29ABE32-B108-47D1-8C60-31EC99151D8B}
+		{F8182347-A447-43BB-B777-0FC44C2822E5} = {6379A525-EE1E-461C-B92A-9CD6FADFCEA6}
+		{934A0FC9-EC7E-4483-80DE-BE9B5E39E77F} = {6379A525-EE1E-461C-B92A-9CD6FADFCEA6}
+		{405E2FFE-9430-4C5A-8F4B-7A5D33770448} = {6379A525-EE1E-461C-B92A-9CD6FADFCEA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B698B8EA-E3A6-40F3-8A80-380D930424F8}
+	EndGlobalSection
+EndGlobal
